@@ -1,0 +1,8 @@
+#!/bin/bash
+while read i; do
+host "$i" | awk '{print $4}'
+done <host.txt 1>output.txt 2>error.txt
+
+diff ip.txt output.txt | grep -i '<' | awk '{print $2}' >check.txt
+
+echo "please read check.txt for problematic IPs"
