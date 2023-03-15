@@ -1,6 +1,6 @@
 # Use Case
 
-his script can be used by anyone who needs to resolve a list of hostnames to IP addresses and compare them to expected IP addresses. It can be useful for network administrators or developers working with network-related tasks.
+This script can be used by anyone who needs to resolve a list of hostnames to IP addresses and compare them to expected IP addresses. It can be useful for network administrators or developers working with network-related tasks.
 
 ## Steps
 
